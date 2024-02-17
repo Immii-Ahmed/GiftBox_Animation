@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.conatainer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+svg{
+    width: 38%;
+    position: absolute;
+    height: auto; 
+    display: none;
+}
+
+#glowlight{
+    display: none;
+}
+#triangle{
+    display: none;
+}
+.card_gift{
+    position: absolute;
+    margin-top: 6rem;
+    display: none;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.card{
+    width: 18rem;
+}
+.btn-close>img{
+    background: transparent;
+    width: 35px;
+}
+.btn-close>img:hover{
+    cursor: pointer;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+}
+.btn-close{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: 2rem;
+}
+.text{
+    display: flex;
+    justify-content: center;
+}
+.text>h1{
+    color: #ffd8a4;
+    margin: 1rem 0rem;
+}
+.leftstar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.leftstar>img{
+    width: 25px;
+}
+.btn-giveup{
+    background-color: #251e24;
+    color: #fffefc;
+    border-radius: 15px;
+    outline: none;
+    border: 1px solid #4d494b;
+}
+.btn-giveup:hover{
+    background-color: #251e24;
+    outline: none;
+    border: 1px solid #4d494b;
+}
+.bg-Color{
+    background-color: #ff743e;
+    color: #fef3e8;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid #4d494b;
+   
+}
+.bg-Color:hover{
+    background-color: #f76930;
+    outline: none;
+    border: 1px solid #4d494b;
+}
+
+@media (max-width: 768px) {
+    svg {
+        width: 80%; /* Adjust as needed for larger screens */
+    }
+    .card{
+        width: 18rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    svg {
+        width: 100%; /* Adjust as needed for even larger screens */
+    }
+    .card{
+        width: 18rem;
+    }
+}
